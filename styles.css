@@ -113,6 +113,7 @@ body {
     padding: 10px 14px;
     margin-top: 5px;
     outline: var(--light-blue);
+    cursor: pointer;
 }
 
 .select {
@@ -131,17 +132,59 @@ body {
     border-color: var(--light-blue);
 }
 
-.address-section {
+.section {
     margin-top: 30px;
     margin-bottom: 25px;
     padding-top: 32px;
     border-top: 1px solid var(--s-light-gray);
 }
 
-.address-section-title {
+.section-title {
     color: var(--dark-gray);
     font-size: 19px;
     font-weight: 500;
     line-height: 24px;
 
+}
+
+.section-subtitle {
+    color: var(--light-gray);
+    font-size: 14px;
+    font-weight: 350;
+    line-height: 20px;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.section-check {
+    margin-top: 40px;
+}
+
+.row1 {
+    display: flex;
+    margin-top: 10px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox {
+    appearance: none;
+    border: 1px solid var(--s-light-gray);
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.checkbox:checked {
+    background-color: var(--light-blue);
+    background-image: url(images/check_icon1.png);
+    background-position: center;
+    background-size: contain;
+}
+
+.m {
+    margin-left: 10px;
 }
